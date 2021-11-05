@@ -1,0 +1,77 @@
+body{
+    background-color: #727272;
+}
+input{
+    text-align: right;
+    border: none;
+    border-top-style: inset;
+    background-color: #afbec4;
+    font-size: 32px;
+}
+.container{
+    border-radius: 2%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    background-color: #d0d0d0;
+    width: 400px;
+}
+.row{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-3{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+button{
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 100%;
+    border: 3px outset ;
+}
+#clear{
+    
+    margin-bottom: 9px;
+    font-size: 32px;
+    background-color: #cb4e4d;
+    padding: 4px 10px;
+    border-radius: 69%;
+    border-style: none;
+}
+#console{
+    border-radius: 5%;
+    font-size: 18px;
+    border-color: #cb4e4d;
+    background-color: #cb4e4d;
+}
+.num{
+    border-radius: 5%;
+    font-size: 23px;
+    padding: 10px;
+    border-color: #5f7d8c;
+    background-color: #5f7d8c;
+}
+.operator{
+    border-radius: 5%;
+    font-size: 23px;
+    padding: 10px;
+    border-color: #ffa725;
+    background-color: #ffa725;
+}
+.equal{
+    border-radius: 5%;
+    font-size: 23px;
+    padding: 10px;
+    border-color:#34679a ;
+    background-color: #34679a;
+}
+button:hover{
+    color: black;
+}
